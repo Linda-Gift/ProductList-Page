@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: -0.75rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.main-container{
+  width: 100%;
+  height: auto;
+  /* background-image: url(./src/assets/background.jpg); */
+  background-color: #f1f1f1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* gap: 1rem; */
+  /* justify-content: start;
+  align-items: start; */
+  
+}
+
+.overallproduct-container{
+  width: 100%;
+  height: auto;
+  padding: 2.5rem;
+  background-color: #181818;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  /* column-gap: 2rem; */
+}
+
+.product-details{
+  width: 100%;
+  height: auto;
+  background-image: url(./src/assets/bi.jpg);
+  background-color: #f1f1f1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  border: 1.5px solid #c6c6c6;
+  border-top-left-radius: 10.5rem;
+  border-top-right-radius: 10.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.image{
+  width: fit-content;
+  height: auto;
+}
+
+.image img{
+  width: 200px;
+  height: 200px;
+}
+.productname-and-id{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.2rem;
+}
+
+.product-name, .productid{
+  width: fit-content;
+  height: auto;
+}
+.product-name h1{
+  font-size: 1.4rem;
+  color: #e9055c;
+  font-weight: 700;
+}
+
+.productprice-container{
+  width: 70%;
+  height: auto;
+  display: flex;
+  border-radius: 2rem;
+  padding: 0.4rem 0;
+  background-color: #181818;
+  color: #ffffff;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  row-gap: 0.2rem;
+}
+
+/* .product-description{
+  width: 80%;
+  height: auto;
+} */
+
+.product-description p{
+  text-align: justify;
+  color: #181818;
+}
